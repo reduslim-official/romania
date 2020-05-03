@@ -1,0 +1,717 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+
+.icon-check-1 {
+    background-image: url(../images/sprite_1.png);
+    background-position: -600px -304px;
+    width: 34px;
+    height: 34px;
+}
+
+.icon-check-2 {
+    background-image: url(../images/sprite_1.png);
+    background-position: -600px -348px;
+    width: 34px;
+    height: 34px;
+}
+
+.icon-check-3 {
+    background-image: url(../images/sprite_1.png);
+    background-position: -600px -244px;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-circle-1 {
+    background-image: url(../images/sprite_1.png);
+    background-position: 0px -244px;
+    width: 190px;
+    height: 190px;
+}
+
+.icon-circle-2 {
+    background-image: url(../images/sprite_1.png);
+    background-position: -200px -244px;
+    width: 190px;
+    height: 190px;
+}
+
+.icon-circle-3 {
+    background-image: url(../images/sprite_1.png);
+    background-position: -400px -244px;
+    width: 190px;
+    height: 190px;
+}
+
+.icon-circle-4 {
+    background-image: url(../images/sprite_1.png);
+    background-position: 0px -444px;
+    width: 190px;
+    height: 190px;
+}
+
+.icon-stomach-1 {
+    background-image: url(../images/sprite_1.png);
+    background-position: -442px 0px;
+    width: 211px;
+    height: 220px;
+}
+
+.icon-stomach-2 {
+    background-image: url(../images/sprite_1.png);
+    background-position: -220px 0px;
+    width: 212px;
+    height: 220px;
+}
+
+.icon-stomach-3 {
+    background-image: url(../images/sprite_1.png);
+    background-position: 0px 0px;
+    width: 210px;
+    height: 234px;
+}
+
+@media only screen and (max-width: 1023px) {
+    .animated {
+        -webkit-animation: none !important;
+        animation: none !important;
+        -webkit-transition: none !important;
+        -o-transition: none !important;
+        transition: none !important;
+    }
+    section {
+        padding: 30px 0;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    /*=============== section 1 ===============*/
+    .section_1,
+    .section_15 {
+        padding: 30px 0;
+    }
+    .section_1 .s1-bg:after,
+    .section_15 .s1-bg:after {
+        display: none;
+    }
+    .section_1 .header,
+    .section_15 .header {
+        width: auto;
+    }
+    .section_1 .header .logo,
+    .section_15 .header .logo {
+        display: table-header-group;
+    }
+    .section_1 .header .logo__inner,
+    .section_15 .header .logo__inner {
+        width: 235px;
+        margin: 0 auto;
+    }
+    .section_1 .header__descr,
+    .section_15 .header__descr {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .section_1 .header__descr-text,
+    .section_15 .header__descr-text {
+        text-align: center;
+    }
+    .section_1 .s1-field__title-text,
+    .section_15 .s1-field__title-text {
+        text-align: center;
+    }
+    .section_1 .s1-field__list,
+    .section_15 .s1-field__list {
+        max-width: 400px;
+    }
+    .section_1 .s1-field .prod,
+    .section_15 .s1-field .prod {
+        right: 0;
+    }
+    .section_1 .s1-field .prod__img,
+    .section_15 .s1-field .prod__img {
+        max-width: 100%;
+    }
+    .form {
+        margin: 40px 0 0;
+    }
+    .form__inner {
+        margin: 0 auto;
+    }
+    .form .light {
+        left: auto;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+    /*=============== END section 1 ===============*/
+    /*=============== section 2 ===============*/
+    .section_2 {
+        padding: 30px 0;
+        background: none;
+        background-color: #fff;
+    }
+    .section_2 .title__text {
+        text-align: center;
+    }
+    .section_2 .title__subtext {
+        text-align: center;
+    }
+    .section_2 .article {
+        margin: 30px auto 0;
+    }
+    .section_2 .article__text {
+        margin: 15px 0 0;
+    }
+    .section_2 .girl {
+        display: none;
+    }
+    /*=============== END section 2 ===============*/
+    /*=============== section 3 ===============*/
+    .section_3 .pyziko__item:not(:last-child) {
+        margin: 0 0 40px;
+    }
+    .section_3 .pyziko__title {
+        margin: 15px 0 0;
+    }
+    .section_3 .pyziko__descr {
+        margin: 3px 0;
+    }
+    /*=============== END section 3 ===============*/
+    /*=============== section 4 ===============*/
+    .section_4 {
+        background: none;
+        background-color: #ffea00;
+    }
+    .help__row:not(:last-of-type) {
+        margin: 0 0 10px;
+    }
+    .help__col--right .help__title {
+        padding-left: 15px;
+    }
+    .help__col--left .help__title {
+        padding-right: 15px;
+    }
+    .help__pic {
+        width: 80px;
+    }
+    .help__item {
+        padding: 0 5px;
+    }
+    .help__text {
+        font-size: 20px;
+    }
+    /*=============== END section 4 ===============*/
+    /*=============== section 5 ===============*/
+    .section_5 .title__text {
+        text-align: center;
+    }
+    .section_5 .doctor {
+        background: none;
+        background-color: #fff;
+    }
+    .section_5 .doctor__head {
+        padding-left: 0;
+    }
+    .section_5 .doctor__head:after {
+        display: none;
+    }
+    .section_5 .doctor__descr {
+        margin: 20px 0 0;
+    }
+    .section_5 .doctor .result {
+        margin: 30px 0 0;
+    }
+    .section_5 .doctor .result__title-text {
+        font-size: 40px;
+    }
+    .section_5 .doctor .result__table {
+        margin: 20px 0 0;
+    }
+    .section_5 .doctor .result__inner {
+        padding: 15px 0;
+        border: 6px solid #660f95;
+    }
+    .section_5 .doctor .result__weight {
+        height: 137.5px;
+        width: 137.5px;
+    }
+    .section_5 .doctor .result__weight:after {
+        -webkit-transform: scale(0.72);
+        -ms-transform: scale(0.72);
+        transform: scale(0.72);
+        top: -23px;
+        left: -26px;
+    }
+    .section_5 .doctor .result__weight-text {
+        font-size: 52px;
+        line-height: 137px;
+    }
+    .section_5 .doctor .result__descr {
+        font-size: 20px;
+    }
+    .section_5 .testee {
+        margin: 30px 0 0;
+        padding: 0 0 30px;
+    }
+    .section_5 .testee__inner:after {
+        display: none;
+    }
+    .section_5 .testee__title {
+        margin: 0 auto;
+    }
+    .section_5 .testee__title-text {
+        font-size: 40px;
+        text-align: center;
+    }
+    .section_5 .testee__list {
+        margin: 30px auto 0;
+    }
+    .section_5 .testee__item {
+        font-size: 26px;
+    }
+    .section_5 .testee__item:not(:last-of-type) {
+        margin: 0 0 20px;
+    }
+    /*=============== END section 5 ===============*/
+    /*=============== section 7 ===============*/
+    .section_7 {
+        padding: 30px 0;
+    }
+    .section_7 .title__subtext {
+        margin: 5px 0 0;
+    }
+    .section_7 .composition__inner {
+        padding-left: 0;
+    }
+    .section_7 .composition__item {
+        padding: 120px 0 0;
+    }
+    .section_7 .composition__item:after {
+        top: -25px;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+    .section_7 .composition__item:not(:last-of-type) {
+        margin: 0 0 30px;
+    }
+    .section_7 .composition__title {
+        text-align: center;
+    }
+    .section_7 .composition__text {
+        text-align: center;
+        margin: 0;
+    }
+    /*=============== END section 7 ===============*/
+    /*=============== section 8 ===============*/
+    .section_8 .complex__row:not(:last-child) {
+        margin: 0 0 10px;
+    }
+    .section_8 .complex__item {
+        height: 90px;
+    }
+    .section_8 .complex__item-text {
+        display: none;
+    }
+    .section_8 .complex .prod {
+        top: 140px;
+        max-width: 250px;
+    }
+    /*=============== END section 8 ===============*/
+    /*=============== section 10 ===============*/
+    .section_10 {
+        background: none;
+        background-color: #fff;
+    }
+    .section_10 .title__text {
+        text-align: center;
+    }
+    .section_10 .doctor:after {
+        display: none;
+    }
+    .section_10 .doctor__text {
+        margin: 30px auto 0;
+    }
+    /*=============== END section 10 ===============*/
+    /*=============== section 11 ===============*/
+    .section_11 .reason__list {
+        margin: 30px auto 0;
+    }
+    .section_11 .reason__item {
+        font-size: 24px;
+        padding-left: 50px;
+    }
+    .section_11 .reason__item:after {
+        top: -12px;
+        -webkit-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        transform: scale(0.7);
+    }
+    .section_11 .reason__item:not(:last-of-type) {
+        margin: 0 0 20px;
+    }
+    .section_11 .accent {
+        margin: 40px auto 0;
+    }
+    .section_11 .accent__text {
+        font-size: 30px;
+    }
+    /*=============== END section 11 ===============*/
+    /*=============== section 12 ===============*/
+    .section_12 .stomach__item {
+        padding: 220px 0 0;
+    }
+    .section_12 .stomach__item:not(:last-child) {
+        margin: 0 0 30px;
+    }
+    .section_12 .stomach__num {
+        left: 250px;
+    }
+    .section_12 .accent {
+        margin: 40px 0 0;
+    }
+    .section_12 .accent__inner {
+        padding: 10px 0;
+        border: 6px solid #ffffff;
+    }
+    .section_12 .accent__text {
+        font-size: 30px;
+    }
+    /*=============== END section 12 ===============*/
+    /*=============== section 13 ===============*/
+    .section_13 .slider .slide__inner {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .section_13 .slider .slide__pic-wrap--bef {
+        -webkit-animation: none;
+        animation: none;
+    }
+    .section_13 .slider .slide__pic-wrap--aft {
+        -webkit-animation: none;
+        animation: none;
+    }
+    .section_13 .slider .slide__item--bef {
+        -webkit-animation: none;
+        animation: none;
+    }
+    .section_13 .slider .slide__item--aft {
+        -webkit-animation: none;
+        animation: none;
+    }
+    .section_13 .slider .slide__left {
+        display: table-header-group;
+    }
+    .section_13 .slider .slide__right {
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .section_13 .slider .slide__pic {
+        width: 400px;
+    }
+    .section_13 .slider .slide__pic-wrap {
+        width: 200px;
+    }
+    .section_13 .slider .slide__descr {
+        width: 250px;
+    }
+    .section_13 .slider .slide__weight {
+        top: 20px;
+    }
+    .section_13 .slider .slide__article {
+        margin: 10px 0 0;
+    }
+    .bx-wrapper .bx-pager.bx-default-pager a:hover {
+        background: #c8aeda;
+    }
+    .bx-wrapper .bx-pager.bx-default-pager a.active {
+        background: #5c0d93;
+    }
+    /*=============== END section 13 ===============*/
+    /*=============== section 14 ===============*/
+    /*=============== END section 14 ===============*/
+    /*=============== section 15 ===============*/
+    .section_15 {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#ad1da1), to(#1a0088));
+        background-image: -webkit-linear-gradient(top, #ad1da1 0%, #1a0088 100%);
+        background-image: -o-linear-gradient(top, #ad1da1 0%, #1a0088 100%);
+        background-image: linear-gradient(to bottom, #ad1da1 0%, #1a0088 100%);
+    }
+    .section_15 .light {
+        display: none;
+    }
+    .section_15 .s15-bg:after {
+        display: none;
+    }
+    /*=============== END section 15 ===============*/
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    /*~~~~~~~~~~~~~~~ section 1 ~~~~~~~~~~~~~~~*/
+    .section_1 .header .logo__inner,
+    .section_15 .header .logo__inner {
+        width: 200px;
+    }
+    .section_1 .header .logo__title,
+    .section_15 .header .logo__title {
+        font-size: 40px;
+    }
+    .section_1 .header .logo__list,
+    .section_15 .header .logo__list {
+        display: none;
+    }
+    .section_1 .header__descr-text,
+    .section_15 .header__descr-text {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        line-height: 1.3;
+    }
+    .section_1 .header__descr .prod,
+    .section_15 .header__descr .prod {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .section_1 .header__descr-subtext-text,
+    .section_15 .header__descr-subtext-text {
+        text-transform: uppercase;
+    }
+    .section_1 .s1-field__list-item,
+    .section_15 .s1-field__list-item {
+        line-height: 1;
+    }
+    .section_1 .s1-field__list-item:after,
+    .section_15 .s1-field__list-item:after {
+        top: -5px;
+    }
+    .form .price__item {
+        font-size: 24px;
+    }
+    /*~~~~~~~~~~~~~~~ END section 1 ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section 3 ~~~~~~~~~~~~~~~*/
+    .section_3 .pyziko {
+        margin: 20px 0 0;
+    }
+    .section_3 .pyziko__pic {
+        max-width: 100px;
+        margin: 0 auto;
+    }
+    /*~~~~~~~~~~~~~~~ END section 3 ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section 4 ~~~~~~~~~~~~~~~*/
+    .help__row {
+        display: block;
+    }
+    .help__row:not(:last-of-type) {
+        margin: 0;
+    }
+    .help__col {
+        display: block;
+    }
+    .help__item {
+        margin: 0 0 15px;
+    }
+    .help__text {
+        font-size: 18px;
+    }
+    .help .testee__title-text {
+        font-size: 30px;
+    }
+    /*~~~~~~~~~~~~~~~ END section 4 ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section 5 ~~~~~~~~~~~~~~~*/
+    .section_5 .doctor__descr {
+        padding-left: 0;
+    }
+    .section_5 .doctor__descr:after {
+        display: none;
+    }
+    .section_5 .doctor .result__title-text {
+        font-size: 30px;
+    }
+    .section_5 .doctor .result__item:not(:last-child) {
+        margin: 0 0 20px;
+    }
+    .section_5 .doctor .result__descr {
+        margin: 5px 0 0;
+    }
+    /*~~~~~~~~~~~~~~~ END section 5 ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section 7 ~~~~~~~~~~~~~~~*/
+    .section_7 .composition {
+        margin: 20px 0 0;
+    }
+    .section_7 .composition__item {
+        padding: 60px 0 0;
+    }
+    .section_7 .composition__item:after {
+        top: -50px;
+        -webkit-transform: translate(-50%, 0) scale(0.5);
+        -ms-transform: translate(-50%, 0) scale(0.5);
+        transform: translate(-50%, 0) scale(0.5);
+    }
+    /*~~~~~~~~~~~~~~~ END section 7 ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section 8 ~~~~~~~~~~~~~~~*/
+    .section_8 .complex {
+        margin: 30px 0 0;
+    }
+    .section_8 .complex__row:nth-child(1) .complex__item--left .complex__lable {
+        font-size: 30px;
+        right: 30px;
+    }
+    .section_8 .complex__row:nth-child(1) .complex__item--right .complex__lable {
+        font-size: 30px;
+        left: 30px;
+    }
+    .section_8 .complex__row:nth-child(2) .complex__item--left .complex__lable {
+        font-size: 30px;
+        right: 80px;
+    }
+    .section_8 .complex__row:nth-child(2) .complex__item--right .complex__lable {
+        font-size: 30px;
+        left: 80px;
+    }
+    .section_8 .complex__row:nth-child(3) .complex__item--left .complex__lable {
+        font-size: 30px;
+        right: 95px;
+    }
+    .section_8 .complex__row:nth-child(3) .complex__item--right .complex__lable {
+        font-size: 18px;
+        left: 95px;
+    }
+    .section_8 .complex__row:nth-child(4) .complex__item--left .complex__lable {
+        font-size: 18px;
+        right: 80px;
+    }
+    .section_8 .complex__row:nth-child(4) .complex__item--right .complex__lable {
+        font-size: 14px;
+        left: 80px;
+    }
+    .section_8 .complex__row:nth-child(5) .complex__item--left .complex__lable {
+        font-size: 16px;
+        right: 30px;
+    }
+    .section_8 .complex__row:nth-child(5) .complex__item--right .complex__lable {
+        font-size: 16px;
+        left: 30px;
+    }
+    .section_8 .complex__item {
+        height: 50px;
+    }
+    .section_8 .complex__lable {
+        height: 50px;
+        width: 50px;
+    }
+    .section_8 .complex__lable-text {
+        max-width: 45px;
+    }
+    .section_8 .complex .prod {
+        max-width: 130px;
+        top: 88px;
+    }
+    /*~~~~~~~~~~~~~~~ END section 8 ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section 11 ~~~~~~~~~~~~~~~*/
+    .section_11 .accent__text {
+        font-size: 26px;
+        line-height: 1.1;
+    }
+    /*~~~~~~~~~~~~~~~ END section 11 ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section 12 ~~~~~~~~~~~~~~~*/
+    .section_12 .stomach__num {
+        left: 20px;
+    }
+    .section_12 .accent__inner {
+        padding: 5px 10px;
+    }
+    /*~~~~~~~~~~~~~~~ END section 12 ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section 13 ~~~~~~~~~~~~~~~*/
+    .section_13 .slider-wrap {
+        margin: 15px 0 0;
+    }
+    .section_13 .slider .slide__pic {
+        width: 250px;
+    }
+    .section_13 .slider .slide__pic-wrap {
+        width: 125px;
+    }
+    .section_13 .slider .slide__descr {
+        display: none;
+    }
+    .section_13 .slider .slide__weight {
+        position: relative;
+        display: block;
+        margin: 15px auto 0;
+        right: auto;
+        top: auto;
+    }
+    .section_13 .slider .slide__article {
+        margin: 0;
+    }
+    .section_13 .slider .slide__article-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    /*~~~~~~~~~~~~~~~ END section 13 ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section 14 ~~~~~~~~~~~~~~~*/
+    .section_14 .title .db {
+        display: inline-block;
+    }
+    .section_14 .descr {
+        margin: 20px 0 0;
+    }
+    /*~~~~~~~~~~~~~~~ END section 14 ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section # ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ END section # ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section # ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ END section # ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section # ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ END section # ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ section # ~~~~~~~~~~~~~~~*/
+    /*~~~~~~~~~~~~~~~ END section # ~~~~~~~~~~~~~~~*/
+}
